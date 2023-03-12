@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-bokeh-realista_23-2149321463.jpg);
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #ffffff35;
+    backdrop-filter: blur(15px);
+    width: 800px;
+    height: 300px;
+    border-radius: .4rem;
+}
+
+section ,h1, p{
+    color: white;
+}
+
+button#get-advice{
+    font-size: 2rem;
+    width: 30%;
+    height: 15%;
+    border-width: 6px;
+    cursor: pointer;
+}
